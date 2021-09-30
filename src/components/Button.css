@@ -1,0 +1,20 @@
+#btn {
+  background-color: #bebebe;
+  box-shadow: 0 4px 0 green;
+  border-radius: 10px;
+  font-size: 3vw;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(21, 255, 21);
+  transition-duration: 0.2s;
+}
+
+#btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 0 green;
+}
+#btn:active {
+  transform: translateY(2px);
+  box-shadow: 0 0px 0;
+}

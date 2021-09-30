@@ -1,0 +1,20 @@
+.input {
+  font-size: 3vw;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: rgb(211, 211, 211);
+  box-shadow: 0 2px 0 rgb(156, 156, 156);
+  transition-duration: 0.2s;
+  width: 100%;
+  margin-left: 10%;
+}
+.input:hover {
+  box-shadow: 0 5px 0 rgb(156, 156, 156);
+  transform: translateY(-5px);
+}
+
+.input:focus {
+  box-shadow: 0 0px 0;
+  transform: translateY(5px);
+}
